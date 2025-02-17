@@ -1,8 +1,7 @@
-class BudgetTracker:
-    def track(self, data):
+class CommunitySupport:
+    def get_alerts(self, data):
         # Dummy implementation
-        return {
-            'total_budget': 1000,
-            'spent': 450,
-            'remaining': 550
-        }
+        return [
+            'Alert: Pickpocket reported near central station',
+            'Alert: Protest in downtown area, avoid if possible'
+        ]
